@@ -34,6 +34,22 @@ export default function OffresPage() {
 
   return (
     <main className="min-h-screen bg-altensia-deep text-white">
+      <header className="sticky top-0 z-50 border-b border-white/10 bg-altensia-deep/80 backdrop-blur">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+          <a href="/" className="text-2xl font-semibold tracking-wide">
+            <span className="text-altensia-cyan">A</span>LTENSIA
+          </a>
+
+          <nav className="hidden gap-8 text-sm text-white/80 md:flex">
+            <a href="/#approche" className="hover:text-white">Approche</a>
+            <a href="/offres" className="hover:text-white">Offres</a>
+            <a href="/#parcours" className="hover:text-white">Parcours</a>
+            <a href="/#engagements" className="hover:text-white">Engagements</a>
+            <a href="/#contact" className="hover:text-white">Contact</a>
+          </nav>
+        </div>
+      </header>
+
       <section className="relative overflow-hidden border-b border-white/10">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_25%,rgba(25,227,255,0.22),transparent_35%)]" />
         <div className="relative mx-auto max-w-7xl px-6 py-24 text-center">
