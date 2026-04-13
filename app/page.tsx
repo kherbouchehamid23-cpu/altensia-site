@@ -120,11 +120,12 @@ export default function HomePage() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a href="#" className="text-2xl font-semibold tracking-wide"><span className="text-altensia-cyan">A</span>LTENSIA</a>
           <nav className="hidden gap-8 text-sm text-white/80 md:flex">
-            <a href="#approche" className="hover:text-white">Approche</a>
-            <a href="#parcours" className="hover:text-white">Parcours</a>
-            <a href="#engagements" className="hover:text-white">Engagements</a>
-            <a href="#contact" className="hover:text-white">Contact</a>
-          </nav>
+  <a href="#approche" className="hover:text-white">Approche</a>
+  <a href="/offres" className="hover:text-white">Offres</a>
+  <a href="#parcours" className="hover:text-white">Parcours</a>
+  <a href="#engagements" className="hover:text-white">Engagements</a>
+  <a href="#contact" className="hover:text-white">Contact</a>
+</nav>
         </div>
       </header>
 
