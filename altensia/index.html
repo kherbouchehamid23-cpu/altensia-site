@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ALTENSIA — Conseil en transformation digitale et intelligence artificielle. Accompagnement progressif : initiation, intégration, automatisation." />
+  <meta name="author" content="Hamid Kherbouche" />
+  <meta property="og:title" content="ALTENSIA — Conseil en transformation IA" />
+  <meta property="og:description" content="Faire de l'IA un levier réel pour votre organisation." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.altensia.fr" />
+  <title>ALTENSIA — Conseil en transformation digitale & IA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" role="navigation" aria-label="Navigation principale">
+    <div class="nav-logo">ALTEN<span>·</span>SIA</div>
+    <div class="nav-links">
+      <a href="#approche">Approche</a>
+      <a href="#offres">Offres</a>
+      <a href="#references">Références</a>
+      <a href="#contact">À propos</a>
+    </div>
+    <button class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+      Prendre contact
+    </button>
+    <button class="nav-burger" aria-label="Menu" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="approche">
+    <div class="hero-left">
+      <div class="hero-eyebrow">Conseil en transformation IA</div>
+      <h1 class="hero-headline">
+        Faire de l'IA<br>
+        un levier <em>réel</em><br>
+        pour votre organisation
+      </h1>
+    </div>
+    <div class="hero-right">
+      <p class="hero-desc">
+        De la première sensibilisation à l'automatisation de vos processus — ALTENSIA vous accompagne avec méthode, à votre rythme, selon votre niveau de maturité.
+      </p>
+      <div class="hero-actions">
+        <button class="btn-sky" onclick="document.getElementById('diagnostic').scrollIntoView({behavior:'smooth'})">
+          Diagnostiquer mon niveau IA
+        </button>
+        <button class="btn-outline" onclick="document.getElementById('parcours').scrollIntoView({behavior:'smooth'})">
+          Voir le parcours →
+        </button>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-item">
+          <span class="trust-num">3</span>
+          <span class="trust-label">Niveaux d'accompagnement</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-num">100%</span>
+          <span class="trust-label">Adapté à votre contexte</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-num">B2B</span>
+          <span class="trust-label">Public & privé</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAND -->
+  <div class="stats-band" aria-label="Chiffres clés">
+    <div class="stat-item">
+      <div class="stat-big">73%</div>
+      <div class="stat-text">des projets IA échouent faute d'adoption interne structurée</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-big">×3</div>
+      <div class="stat-text">la productivité gagnée avec une approche progressive et outillée</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-big">1/3</div>
+      <div class="stat-text">des équipes utilisent l'IA sans cadre ni gouvernance définie</div>
+    </div>
+  </div>
+
+  <!-- PARCOURS -->
+  <section class="parcours-section" id="parcours">
+    <div class="sec-header">
+      <span class="sec-num">01</span>
+      <h2 class="sec-title">Le parcours en <em>trois niveaux</em></h2>
+    </div>
+    <div class="parcours-grid">
+
+      <div class="parcours-item">
+        <div class="p-num">I</div>
+        <div class="p-meta">
+          <div class="p-name">Initiation</div>
+          <span class="p-badge">Fondations</span>
+        </div>
+        <div class="p-content">
+          <p class="p-desc">Comprendre les fondamentaux, acculturer vos équipes et sécuriser les premiers usages. Ateliers, cartographie des cas d'usage, formation pratique.</p>
+          <p class="p-for">Idéal pour les équipes débutantes, les directions et les fonctions support.</p>
+        </div>
+      </div>
+
+      <div class="parcours-item active">
+        <div class="p-num">II</div>
+        <div class="p-meta">
+          <div class="p-name">Intégration</div>
+          <span class="p-badge">Mise en pratique</span>
+        </div>
+        <div class="p-content">
+          <p class="p-desc">Inscrire l'IA dans les pratiques métier réelles. Identification des usages prioritaires, construction de prompts adaptés, adoption mesurée et tracée.</p>
+          <p class="p-for">Idéal pour les équipes ayant déjà exploré l'IA et les managers opérationnels.</p>
+        </div>
+      </div>
+
+      <div class="parcours-item">
+        <div class="p-num">III</div>
+        <div class="p-meta">
+          <div class="p-name">Automatisation</div>
+          <span class="p-badge">Transformation</span>
+        </div>
+        <div class="p-content">
+          <p class="p-desc">Transformer vos processus répétitifs en flux automatisés et durables. Gain de temps mesurable, réduction des erreurs, amélioration continue de la qualité.</p>
+          <p class="p-for">Idéal pour les organisations matures, les DSI et les directions de l'innovation.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DIAGNOSTIC -->
+  <div class="diagnostic-band" id="diagnostic">
+    <div class="diag-text">
+      <div class="diag-eyebrow">Outil de diagnostic</div>
+      <div class="diag-title">Quel est votre niveau de maturité IA ?</div>
+      <div class="diag-desc">5 questions pour identifier votre point d'entrée et recevoir un parcours personnalisé.</div>
+    </div>
+    <button class="btn-sky" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+      Faire le diagnostic →
+    </button>
+  </div>
+
+  <!-- POUR QUI -->
+  <section class="pourqui-section" id="offres">
+    <div class="sec-header">
+      <span class="sec-num">02</span>
+      <h2 class="sec-title">Des organisations <em>de toutes tailles</em></h2>
+    </div>
+    <div class="pourqui-grid">
+      <div class="pq-card">
+        <div class="pq-icon"><div class="pq-icon-inner"></div></div>
+        <div class="pq-name">PME & ETI</div>
+        <p class="pq-desc">Premiers pas dans l'IA, formation des équipes, gains rapides sur les tâches quotidiennes à forte valeur ajoutée.</p>
+      </div>
+      <div class="pq-card">
+        <div class="pq-icon"><div class="pq-icon-inner"></div></div>
+        <div class="pq-name">Grands groupes</div>
+        <p class="pq-desc">Déploiement à l'échelle, alignement stratégique, gouvernance IA et accompagnement structuré des métiers.</p>
+      </div>
+      <div class="pq-card">
+        <div class="pq-icon"><div class="pq-icon-inner"></div></div>
+        <div class="pq-name">Secteur public</div>
+        <p class="pq-desc">Sensibilisation institutionnelle, adaptation réglementaire et enjeux de souveraineté numérique.</p>
+      </div>
+      <div class="pq-card">
+        <div class="pq-icon"><div class="pq-icon-inner"></div></div>
+        <div class="pq-name">Organismes de formation</div>
+        <p class="pq-desc">Co-construction de cursus IA, certification des formateurs, modules intégrables dans des parcours existants.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONSULTANT -->
+  <section class="consultant-section" id="references">
+    <div class="cons-left">
+      <blockquote class="cons-quote">
+        Pas de jargon, pas de promesses. Des actions concrètes et un accompagnement ancré dans la réalité de votre organisation.
+      </blockquote>
+      <div class="cons-rule"></div>
+    </div>
+    <div class="cons-right">
+      <div class="sec-header">
+        <span class="sec-num">03</span>
+        <h2 class="sec-title">Votre <em>interlocuteur</em></h2>
+      </div>
+      <div class="cons-info">
+        <div class="cons-avatar" aria-hidden="true">HK</div>
+        <div class="cons-details">
+          <div class="cons-name">Hamid Kherbouche</div>
+          <div class="cons-role">Consultant en transformation digitale & IA<br>15+ ans d'expérience en accompagnement organisationnel</div>
+          <div class="cons-contact">
+            <a href="mailto:hamid.kherbouche@altensia.fr">hamid.kherbouche@altensia.fr</a>
+            <a href="tel:+33658089982">+33 6 58 08 99 82</a>
+            <a href="https://wa.me/33658089982">WhatsApp</a>
+          </div>
+          <div class="cons-geo">France · Algérie</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER CTA / CONTACT -->
+  <section class="footer-cta" id="contact">
+    <div class="fcta-eyebrow">Prochaine étape</div>
+    <h2 class="fcta-title">Prêt à structurer<br>votre démarche <em>IA</em> ?</h2>
+    <p class="fcta-sub">Un premier échange de 30 minutes pour comprendre vos enjeux<br>et identifier le bon point d'entrée, sans engagement.</p>
+    <a href="mailto:hamid.kherbouche@altensia.fr" class="btn-sky-outline">Planifier un appel gratuit</a>
+    <p class="fcta-reassure">Réponse sous 24h · Entretien confidentiel · Sans engagement</p>
+  </section>
+
+  <!-- FOOTER BAR -->
+  <footer class="footer-bar" role="contentinfo">
+    <div class="fb-logo">Altensia</div>
+    <nav class="fb-links" aria-label="Liens secondaires">
+      <a href="#">Mentions légales</a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:hamid.kherbouche@altensia.fr">Contact</a>
+    </nav>
+    <div class="fb-copy">© 2026 ALTENSIA</div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+═══════════════════════════════════════════
+  ALTENSIA — Instructions de déploiement
+═══════════════════════════════════════════
+
+CONTENU DU ZIP
+─────────────
+  index.html   → Page principale du site
+  style.css    → Feuille de styles (thème bleu premium)
+  main.js      → Animations et menu mobile
+  deploy.sh    → Script de déploiement SSH automatique
+  LISEZ-MOI.txt → Ce fichier
+
+OPTION A — DÉPLOIEMENT SSH AUTOMATIQUE (recommandé)
+────────────────────────────────────────────────────
+1. Décompressez ce zip sur votre ordinateur
+2. Ouvrez deploy.sh dans un éditeur de texte
+3. Remplissez les 4 lignes de configuration :
+     SSH_USER="votre_utilisateur"
+     SSH_HOST="votre-domaine.fr"
+     SSH_PORT="22"
+     REMOTE_DIR="/var/www/html"
+4. Ouvrez un terminal dans le dossier décompressé
+5. Rendez le script exécutable :
+     chmod +x deploy.sh
+6. Lancez le déploiement :
+     bash deploy.sh
+7. Entrez votre mot de passe SSH si demandé
+→ Le site est en ligne en moins de 30 secondes
+
+OPTION B — VIA FTP / cPANEL
+────────────────────────────
+1. Connectez-vous à votre cPanel ou FileZilla
+2. Naviguez dans public_html/ (ou www/)
+3. Uploadez les 3 fichiers :
+     index.html, style.css, main.js
+4. C'est tout — le site est en ligne immédiatement
+
+SUPPORT
+───────
+En cas de problème, contactez :
+hamid.kherbouche@altensia.fr
+
